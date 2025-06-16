@@ -22,8 +22,10 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 
 ## Working Papers
 
-- **Mainstreaming Prejudice? Anti-Prejudice Norms, Mainstream Elites and Far Right Rhetoric.** Presented at DPSA 2024, EPSA 2025 and APSA 2025. 
+- **Mainstreaming Prejudice? Anti-Prejudice Norms, Mainstream Elites and Far Right Rhetoric.** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
+
 - **When Do Mainstream Parties Talk Like the Far Right? A Computational Analysis of Anti-Immigrant Rhetoric** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
+  
 - **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas. 
 
 ## Education
@@ -62,11 +64,8 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 - Teaching Assistant, Department of Political Science, Aarhus University, 2018-2020 
   – Politological Introductory Course
 
+## Data and Resources
+- Mapping the News Agenda in Bosnia: [Link](https://alikarcic.github.io/)
 
 
 
-
-
-
-  
-- Ph.D Student, Department of Political Science, Aarhus University  
