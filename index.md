@@ -18,5 +18,5 @@ I am a Political Science PhD student at the Department of Political Science, Aar
 
 My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. 
 
-You can view my updated CV [here](/CV_June2025_Ali Karcic.pdf).
+You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 
