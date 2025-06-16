@@ -4,11 +4,6 @@ title: Ali Karcic
 ---
 <link rel="stylesheet" href="/assets/style.css">
 
-PhD Candidate in Political Science. 
-
-📧 [alikarcic@uni.au.dk](mailto:au567641@ps.au.dk)  
-🔗 [ORCID: 0000-0002-XXXX-XXXX](https://orcid.org/0000-0002-XXXX-XXXX)
-
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
 My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. I make use of quantitative and experimental methods.  
