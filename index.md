@@ -4,9 +4,7 @@ title: Ali Karcic
 ---
 <link rel="stylesheet" href="/assets/style.css">
 
-## Ali Karcic
-
-Political Science PhD candidate, research in computational rhetoric, elite influence, social norms.
+PhD Candidate in Political Science. 
 
 - [Google Scholar](https://scholar.google.com/yourprofile)  
 - [Old site](/main-site/alikarcic/)  
@@ -17,7 +15,7 @@ Political Science PhD candidate, research in computational rhetoric, elite influ
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
-My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. 
+My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. I make use of quantitative and experimental methods.  
 
 You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 
