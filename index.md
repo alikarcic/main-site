@@ -37,20 +37,19 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
   
 ## Conferences and Workshops
 
-- American Political Science Association Conference (APSA), Invited (September 2025)  
-- European Political Science Association Conference (EPSA), Invited (June 2025)  
-- Political Methodology Europe Conference, London School of Economics, Presented Paper (April 2025)  
-- Danish Political Science Association (DPSA), Presented Paper (November 2024)  
-- Completed 2024 Inter-university Consortium for Political and Social Research Summer Program Quantitative Methods of Social Research (ICPSR) (Summer 2024)  
-- Empirical Research on Peace and Conflict Workshop, Participated and Organized (September 2022)
-- 
+- American Political Science Association Conference (APSA), September 2025
+- European Political Science Association Conference (EPSA), June 2025  
+- Political Methodology Europe Conference, London School of Economics, April 2025  
+- Danish Political Science Association (DPSA), November 2024
+- ICPSR Summer Program in Quantitative Methods of Social Research, Summer 2024  
+- Empirical Research on Peace and Conflict Workshop, Participated and Organized, September 2022
+
+  
 ## Work Experience
 
 - Research Assistant, Department of Political Science, Aarhus University, 2022-2023
-  – Full-time research on peace and conflict, customary (traditional) institutions, gender norms, historical institutions, and institutional development. Project headed by Prof. Clara Neupert-Wentz. 
-
+  
 - Student RA, Department of Political Science, Aarhus University 2020-2021
-    – Part-time RA on research about interaction between interest organizations and the EU Commission. Project headed by Prof. Jens Blom-Hansen.
 
 ## Teaching
 
