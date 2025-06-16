@@ -3,14 +3,19 @@ layout: default
 title: Ali Karcic
 ---
 
-# Ali Karcic
+## Ali Karcic
 
-I’m a political science PhD student researching elite discourse, social norms, and intergroup attitudes.
+Political Science PhD candidate, research in computational rhetoric, elite influence, social norms.
 
-## Sections
+- [Google Scholar](https://scholar.google.com/yourprofile)  
+- [Old site](/main-site/alikarcic/)  
+- [Publications](publications.md)  
+- [Grants](grants.md)  
+- [Teaching](teaching.md)  
+- [CV](/assets/CV_May_2025.pdf)  
+- [Contact](mailto:your@email)
 
-- [Old site](alikarcic/)
-- [Working Papers](#)
-- [Teaching](#)
-- [CV](#)
-- [Contact](mailto:you@example.com)
+I am a Political Science PhD candidate at the University of Zurich (UZH), Switzerland.
+
+My research focuses on political competition and rhetorical persuasion...  
+My PhD is supported by a Swiss National Science Foundation project on large-scale online deliberation.
