@@ -1,4 +1,9 @@
 title: Ali Karcic
 theme: jekyll-theme-minimal
 description: Political Science PhD candidate; computational social science & rhetoric
-logo: /files/photo_new.jpg          # optional: your photo/logo
+logo: /files/photo_new.jpg
+
+# Custom CSS
+include:
+  - /style.css
+
