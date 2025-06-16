@@ -5,5 +5,5 @@ logo: /files/photo_new.jpg
 
 # Custom CSS
 include:
-  - /style.css
+  - style.css
 
