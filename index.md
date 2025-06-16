@@ -5,6 +5,8 @@ title: Ali Karcic
 
 ## Ali Karcic
 
+![Ali Karcic](files/photo_new.jpg){: style="max-width: 180px; border-radius: 6px;" }
+
 Political Science PhD candidate, research in computational rhetoric, elite influence, social norms.
 
 - [Google Scholar](https://scholar.google.com/yourprofile)  
