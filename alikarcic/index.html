@@ -1,1 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapping the News Agenda in Bosnia</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">  <!-- Your existing CSS -->
+    <script src=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/all.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/fontawesome.min.css " rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous"> -->
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
+    <style>
+        body {
+            max-width: 800px; /* Change this value to adjust width */
+            margin: 0 auto;   /* Center the content */
+            padding: 20px;    /* Add some padding */
+        }
 
+        img {
+            max-width: 100%;  /* Ensure images are responsive */
+            height: auto;      /* Maintain aspect ratio */
+        }
+
+        /* Optional: Larger images */
+        .large-img {
+            width: 90%;      /* Adjust this value to make images larger */
+            height: auto;    /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+    <ul style="list-style-type: none; padding: 0; display: flex;">
+        <li style="margin-right: 20px;"><a href="index.html">English</a></li>
+        <li><a href="index_bos.html">Bosanski</a></li>
+    </ul>
+</nav>
+
+
+ <body>
+    <header>
+    <div id="header-container">
+        <div id="header">
+            <div id="header-img">
+                <img src="images/photo_new.jpg" alt="Profile picture for Ali Karčić." />
+            </div>
+            <div id="header-content">
+                <div class="header-block">
+                <h1>Ali Karčić</h1>
+		<h5>PhD Student<br> Political Science<br>
+                <a href="https://www.au.dk/">Aarhus University</a> | <a href="https://bss.au.dk/">AU BSS</a> | <a href="https://ps.au.dk/en/">IFSK</a> 
+			</h5>
+                </div>
+                <div class="header-block">
+		    <div class="header-link"><i class="fa-solid fa-envelope fa-fw"></i>Email: alka at ps.au.dk</a></div><br>
+                    <div class="header-link"><i class="fa-solid fa-location-dot fa-fw"></i>56.1567°N 10.2108°E</a></div><br>
+					<div class="header-link">
+                        <a href="./files/CV_Ali Karcic.pdf"><i class="fa-regular fa-file fa-fw"></i>CV</a>
+					    <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter fa-fw"></i>Twitter</a>
+                    </div>
+					<br>
+		    <div class="header-link">
+				<a href="https://github.com/alikarcic">
+					<i class="fa-brands fa-github fa-fw"></i>GitHub</a>		
+					<a href="https://scholar.google.com/">
+					<i class="fa-brands fa-google-scholar fa-fw"></i>Google Scholar</a></div> 
+			<br>
+	            <!-- <div class="header-link"><a href="https://www.bodunhu.com/blog"><i class="fa-solid fa-pen-to-square fa-fw"></i>Blog</a></div> -->
+	            <!-- <a href="https://www.semanticscholar.org/author/Eunsol-Choi/2890423"><i class="ai ai-semantic-scholar ai"></i>Semantic Scholar</a> -->
+				<!-- <br> -->
+			<a href="#teaching"> [teaching]</a> 
+			<a href="#publications">[publication]</a> 
+			<a href="#personal">[misc.]</a>
+		</div>
+               </div>
+        </div>
+    </div>
+
+
+
+
+    
+    <h1>Mapping the News Agenda in Bosnia</h1>
+    <p>September 2024</p>
+
+    <h2>What is this project about?</h2>
+    <p>More than ever before, people rely on the internet for their daily news and information. With the rapid proliferation of internet access across the globe,
+        more and more people are turning away from traditional, analogue, news outlets in favor of social media such as Twitter and Facebook, or large online-only news platforms. 
+        Given that these web-based news portals have become the primary source of information for a majority of the population, they are naturally of great interest to social scientists, 
+        who wish to know more about the media landscape, and what societal priorities the media landscape reflects.</p>
+
+    <p>This project aims to make use of the easily accessible online news data by focusing on <strong><a href="https://klix.ba">klix.ba</a></strong>, recognized as the most influential and 
+        most news portal in Bosnia, among other by OSCE in a <strong><a href="https://www.osce.org/files/f/documents/7/c/577738_1.pdf?utm_source=Klix">recent report</a></strong>.
+        By scraping, systematizing, and analyzing all news articles on the website, I aim to map out what type of news Bosnians engage with, and how they engage with it, 
+        hopefully providing a unique insight into the broader media trends in the country. The reason for choosing Bosnia is that general efforts into collecting and archiving news articles 
+        have been largely absent to my knowledge, underscoring the importance of such work in the future.</p>
+
+    <h2>Key Questions</h2>
+    <ol>
+        <li><strong>Engagement with the News</strong><br>What types of articles do Bosnians read the most? What content generates the highest engagement?</li>
+        <li><strong>Identification of Popular Topics</strong><br>What types of news are published most frequently? Has the news agenda changed over time?</li>
+        <li><strong>News Production over Time</strong><br>Which topics dominate the news landscape? Are there seasonal or event-driven spikes in certain topics?</li>
+        <li><strong>Geographic Distribution of News Content</strong><br>What geographic areas and locations does the news agenda focus on the most? Are some places given more attention than others?</li>
+        <li><strong>Coverage of Politics</strong><br>What political parties are mentioned most often in the news? What political leaders are given the most attention?</li>
+        <li><strong>Sentiment Analysis</strong><br>Are news articles mostly positive or negative in sentiment? Is coverage of politics biased in terms of sentiment?</li>
+    </ol>
+
+    <h2>Data Sources</h2>
+    <p>The data is sourced directly from klix.ba via a python web scraper, written using BeautifulSoup. The analysis is based on this web scraped data, in addition to the initial data collection
+        done by <strong><a href="https://github.com/Seferovic8">Seferovic8</a></strong>. Sentiment labels and scores were calculated using 
+        <strong><a href="https://huggingface.co/MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7">MoritzLaurer's</a></strong> multilingual zero-shot classification model. 
+        The data itself consists of 786.718 news articles stretching from December 2002 to August 2023. </p>
+
+    <h2>Engagement with the News and Popular Topics</h2>
+    <p>All articles on klix.ba are categorized into one of 7 categories - a cursory glance at the total amount of news articles per category reveals that a majority of articles belong to the "Vijesti"
+        category, namely the general news category. Surprisingly, the "Sport" category is the second largest category, and makes up more than 20% of all articles on klix.ba, indicating a substantial
+        interest in sports news. Besides the "Magazin" category, which includes news reporting on cultural events and makes up some 12% of all articles, all other article categories take up a limited
+        amount of space. </p>
+    
+    <img src="images/solar.png" alt="Solar Plot" class="large-img">
+    <p>Breaking down article frequencies across time reveals a surprisingly stable distribution of categories throughout most of the time period. The news category makes up about 50% of all articles 
+        in basically every year 2005 until 2023. The plot below also reveals that klix.ba publishes approximately the same amount of articles each month, with the exception of the pre-2007 period. 
+        There also seems to be a slight indication of a general growth in the number of articles post-2020. </p>
+    <img src="images/stacked_area.png" alt="Stacked Area Plot" class="large-img">
+    
+    <p>The dataset also includes information on how many comments and shares each article receives. This provides an interesting view into the public's engagement with news articles, indicating
+    which articles generate more engagement than others. As the plot below illustrates, klix.ba articles generated a limited amount of engagement until 2013, with about 0-20 comments per article. 
+    After 2013, there is a substantial increase in the number of comments, reaching an all time high in 2019, with about 60 comments per article. With the exception of a noticeable drop around 2020, 
+    the number seems to have stabilized around 40 comments per article. This suggests that the notoriously combative klix.ba comment threads are perhaps not a thing of the past, but are less prevalent
+    than before.</p>
+    <img src="images/comments_time_scatter.png" alt="Comments Time Scatter Plot" class="large-img">
+    
+    <p>Breaking down the number of comments per article across article categories reveals that the general news category expectedly generates the highest amount of reader engagement. In fact,
+    there seems to have been a deviation in the number of comments between the general news category, and all other categories around 2014. Until 2014, all article categories generated about
+    the same amount of comments. After 2014 however, general news stands out as the most engaging news category by far. </p>
+    <img src="images/comments_time_smooth.png" alt="Comments Time Scatter Plot" class="large-img">
+
+
+    <h2>Geographic Distribution of News Content</h2>
+    <p>Turning now to the geographic distribution of news content, I looked at the number of articles that explicitly mentioned each one of the former Yugoslav countries. As the map below shows, 
+    Bosnia is not surprisingly the most frequently referenced country on klix.ba, being named in almost 135.000 of all articles. The second most popular country is Croatia, being named some 65.000
+    times, closely followed by Serbia at 61.000. The remaning four countries take up substantially less space on the news agenda, with Montenegro being the least mentioned country. Still, it is worth
+    underscoring the fact that despite klix.ba being a Bosnian news website focusing on mainly Bosnian news, a considerable amount of attention is still given to neighboring countries.</p>
+    <img src="images/articles_country_map.png" alt="Articles Country Map" class="large-img">
+    
+    <p>Zooming in on Bosnia in particular, I similarily calculated the number of articles mentioning each city/town in the country. The map below highlights the 10 most frequently mentioned places
+    on klix.ba. Note that the number of cities/towns included do not constitute an exhaustive list of all place names in Bosnia, especially smaller towns and villages. Additionally, some place names
+    had to be corrected, due to having mistankely inflated counts (e.g. "Ključ" and "Brod").</p>
+    <img src="images/articles_bih_mentions_map.png" alt="Mentions Plot" class="large-img">
+    
+    <p>Plotting the top 20 most popular cities in Bosnia according to their total number of article mentions reveals several interesting observations. Firstly, Sarajevo is by far the most mentioned city, 
+    counting three times as many articles as the second place city, and more articles than all other cities combined. This is perhaps unsurprising given the importance of Sarajevo as both the economic 
+    and political centerpoint of the entire country. Given Bosnia's relatively low level of urbanization and political centralization however, the media's significant attention on Sarajevo is still remarkable.</p>
+    
+    <p>Secondly, after Sarajevo, the city that has received the most media attention is Mostar. This is to some extent unexpected, given that the second largest city in Bosnia is Banja Luka, and that three
+    cities all closely compete for the third spot (Zenica, Tuzla, and Mostar all having some 100.000-110.000 inhabitants). The disproportionally high attention devoted to Mostar can possibly be explained
+    with reference to 1. the political significance of the city as a hotseat of contention among Bosnian Croats and Bosniaks, and 2. the popularity of the city as a tourist destination. Banja Luka being
+    only the fifth most mentioned city perhaps underscores the city's relatively peripheral role in Bosnian politics and economy. </p>
+
+    <p>Lastly, it is also worth pointing out that Srebrenica, despite being located in the very periphery of the country and only having some 13.000 inhabitants, still manages to be among the top 10 
+        most mentioned places. This is undoubtedly due to the historical importance of the city, being eponymous with the Srebrenica Massacre of 1995, and often seen as the brutal climax of the whole 
+    Bosnian Genocide. As such, Srebrenica understandably receives a large amount of media coverage, especially during the yearly Srebrenica Memorial Day, held on the 11th of July.</p>
+    
+    <img src="images/articles_bih_mentions_barplot.png" alt="Stacked Area Plot" class="large-img">
+
+    <h2>Interactive Maps</h2>
+    
+    <p>Below are two interactive map widgets, that show all mentioned places names, along with the exact number of article mentiones per place. Map 1 allows for zooming in and zooming out, while Map 2
+    scales the place pins according to the total counts. </p>
+    
+    <iframe src="images/interactive_map_1.html" width="100%" height="600" style="border:none;"></iframe>
+    <iframe src="images/interactive_map_2.html" width="100%" height="600" style="border:none;"></iframe>
+
+    <p>The map below shows the general geographic distribution of article mentions across all mentioned place names. In other words, the map indicates which areas of the country receive the most media
+    attention. Media attention seems to be mostly oriented towards central Bosnia, more specifically the Sarajevo-Tuzla-Doboj-Travnik quadrant. This is by far the most populated area in the country, 
+    and also the most economically developed outside of the capital city itself. In contrast, the areas of Bosnia that receive the least amount of news coverage are the peripheral parts of the country,
+    such as Western Bosnia, Northern Bosnia (except Brčko), and East-South East Bosnia. One important exception to this is the region of Krajina, i.e. the Northwestern part of Bosnia, 
+    with places like Bihać, Velika Kladuša, Cazin, Bužim and Krupa all being mentioned in the media quite often. </p>
+    <img src="images/bih_bubble_plot.png" alt="Bubble Plot" class="large-img">
+
+    <h2>Coverage of Politics</h2>
+    <p>How does news coverage of the political scene look? Given that the Bosnian political system is notoriously complex, it would be interesting to see how the media landscape reflects this complexity.
+    Additionally, Bosnia scores fairly low on most press freedom indexes <strong><a href="https://en.wikipedia.org/wiki/World_Press_Freedom_Index">(World Press Freedom Index)</a></strong>, comparable to other
+    countries in Eastern Europe, and concerns about biased news reporting and access to media coverage are voiced frequently. In this light, a relevant question is how much Bosnian political parties are mentioned
+    in news articles on klix.ba. </p>
+
+    <p>The chart below shows the year-level number of article mentions per politial party. As the chart indicates, coverage of political parties is substantially and consistently diverse, with no single 
+    party representing more than 50% of total articles on politics at any point in time. Some parties however do attract more media attention than others - SNSD, SDP and SDA are mentioned very often, underscoring
+    their role as the biggest parties in Bosnia. SDA especially receives the most attention out of all parties, which is understandable considering that SDA regularily receives the most votes out of 
+    any party in Bosnia. Surprisingly, many articles every year also mention HDZ, despite HDZ representing a much smaller segment of the voting population, compared to SDP or SNSD. This perhaps reflects
+    HDZ's important political position as the representative of the Bosnian Croat minority in the country </p>
+    <img src="images/stacked_barplot_parties.png" alt="Parties Plot" class="large-img">
+
+    <p>Calculating article mentions per party as percentages reveals several other interesting trends. Firstly, the data shows the shrinking importance of the main Bosnian Serb opposition party called 
+    SDS, vis-a-vis the SNSD party, who took power in 2006. Secondly, the data also reflect the weakening of the SDP in lieu of Željko Komšić's founding of DF as a breakthrough party in 2013. DF receives a
+    growing amount of media attention from 2014 and onwards, at the direct expense of SDP. Thirdly, the data also captures the general fragmentation of the Bosnian political system, especially among Bosniak 
+    parties, from 2018 and onwards. Media coverage is spread out across many more, newer, parties, such as NIP, NS and NES. </p>
+    <img src="images/stacked_barplot_parties2.png" alt="Parties Plot 2" class="large-img">
+
+    <p>Just like it is interesting to catalogue the media coverage of political parties, it is similarily of interest to quantify media attention devoted to political leaders in Bosnia. Looking at the raw
+    article counts, the variance in media coverage of party leaders to some extend follows the same pattern as with political parties. One noticeable exception is the fact that Željko Komšić receives more
+    media coverage than Nermin Nikšić, despite the fact that DF receives less overall coverage compared to SDP. This illustrates that Komšić's popularity as a politican goes beyond DF as a party. Conversely,
+    Bakir Izetbegović receives relatively less media attention compared to his party, SDA. </p>
+    <img src="images/stacked_barplot_leaders.png" alt="Leaders Plot" class="large-img">
+
+    <p>However, looking at both the absolute and relative article counts, it becomes very clear that Milorad Dodik is the politician who receives the single most media attention out of all politicians, for
+    more or less the entire time period in question. This is somewhat surprising given both that 1. Banja Luka, the SNSD's historic stronghold, is in general not very central to the news agenda, and 
+    2. SNSD received a relatively low amount of media attention compared to other parties. Milorad Dodik's role as the most talked about politician is most likely a result of his inflammatory rhetoric
+    and his provocative statements, such as questioning Bosnian national sovereignty, denying the Bosnian Genocide, and glorifying Serb war criminals. </p>
+    <img src="images/stacked_barplot_leaders2.png" alt="Leaders Plot 2" class="large-img">
+
+    <h2>Sentiment Analysis</h2>
+    <p>Moving on to the sentiment analysis, it is important to underscore that not the entire text corpus was classified into the "negative", "neutral" and "positive" categories. Only 55.000 articles 
+    were passed through the classifier, covering the period from August 2022, to August 2023. Looking at the aggregate amount of positive, negative and neutral articles, we see that article which have
+    a negative sentiment make up approximately 50% of all news. Despite a widespread impression of the news as being disproportionately focused on negative events, such as political scandals, international
+    conflicts, or natural disasters, the data seems to indicate that the news agenda is not overly slanted towards negative news. </p>
+    <img src="images/sentiment_pie.png" alt="Leaders Plot 2" class="large-img">
+
+    <p>Rather than crude categorizations of negative and positive, the density plot below shows the distribution of articles across sentiment scores. Sentiment scores are a measure of how accurately
+    an article can be categorized as either negative or positive (higher numbers meaning more precision). Interestingly, the distribution of negative news articles is strongly left-skewed, meaning that
+    a significant subsection of negative news are indeed highly negative, compared to the more flat distribution of positive news. In substantial terms, there are about as many positive and negative news 
+    in the media - but the negative news are unmistakeably negative, while positive news are more ambigiously positive. This can perhaps explain the common notion that the media tends to favor reporting
+    on negative events. </p>
+    <img src="images/sentiment_density.png" alt="Leaders Plot 2" class="large-img">
+
+    <p>Breaking down the number of positive and negative news articles across time reveals an unexpected pattern - the data shows what looks like an U-curve with respect to proportion of negative vs. positive
+    news articles. While there are almost an equal amount of positive and negative news around summer 2022 and summer 2023, negative news take up a larger part of the news agenda in the late winter and early
+    spring of 2023, with there on average being 25 more negative than positive articles every day. </p>
+    <img src="images/sentiment_aggregate_time.png" alt="Leaders Plot 2" class="large-img">
+
+    <p>Another interesting avenue of research is to look at news sentiment with respect to coverage of political parties. Investigating to what extent news media disproportionately conduct negative
+    reporting on some parties compared to other parties, is a question that has generated much contention on the political scene in Bosnia in recent years. The leader of the Narod i Pravda
+    party, and current minister of foreign policy Elmedin Konaković, has been especially vocal in his accusations of media bias, alleging that journalists from a long string of online news sites
+    <strong><a href="https://media.ba/bs/vijesti-i-dogadaji-vijesti/konakovic-optuzio-medije-da-napadaju-bh-institucije">unfairly target the government coalition parties</a></strong>.
+    </p>
+
+    <p>To empirically verify this claim, I identify all news articles that mention each of the six biggest political parties in Bosnia, and then calculate the proportion of negative, positive, and
+    neutral articles for each party. As the plot below reveals, there is a very small amount of variation in the percentage of negative news coverage across parties. Two parties, SDA and SDP, 
+    receive a relatively larger amount of negative news coverage - this can possibly be attributed to their status as the oldest and historically most influential political parties in Bosnia. 
+    Given their history, both parties have more political scandals associated with their name, compared to the four other newer parties. Importantly, there is no evidence for the accusations
+    made by Konaković - NiP is not the target of more negative news coverage compared to other parties. In fact, they receive slightly less negative coverage than their main rival, the SDA. </p>
+    <img src="images/sentiment_all_parties.png" alt="Leaders Plot 2" class="large-img">
+        
+    <p>A more direct test of Konaković's claim is to calculate the sentiment proportions by grouping the three main government parties (colloquially knowns as the Troika), and comparing it to the
+    three main opposition parties. As the plot below illustrates, there is virtually no difference in aggregate sentiment between the two blocs. The government coalition parties collectively 
+    receive about as much negative and positive coverage, as the opposition parties. The claims about widespread media bias made by Konaković do not hold up to scrutiny. </p>    
+    <img src="images/sentiment_govt_opposition.png" alt="Leaders Plot 2" class="large-img">
+
+
+</body>
+</html>
