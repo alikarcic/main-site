@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="/assets/style.css">
-
 ---
 layout: default
 title: Ali Karcic
 ---
+<link rel="stylesheet" href="/assets/style.css">
 
 ## Ali Karcic
 
