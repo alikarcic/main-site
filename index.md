@@ -6,6 +6,8 @@ title: Ali Karcic
 
 PhD Candidate in Political Science. 
 
+📧 [alikarcic@uni.au.dk](mailto:au567641@ps.au.dk)  
+🔗 [ORCID: 0000-0002-XXXX-XXXX](https://orcid.org/0000-0002-XXXX-XXXX)
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
