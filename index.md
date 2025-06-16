@@ -6,18 +6,20 @@ title: Ali Karcic
 
 PhD Candidate in Political Science. 
 
-- [Google Scholar](https://scholar.google.com/yourprofile)  
-- [Old site](/main-site/alikarcic/)  
-- [Publications](publications.md)  
-- [Teaching](teaching.md)  
-- [CV](/assets/CV_May_2025.pdf)  
-- [Contact](mailto:your@email)
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
 My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. I make use of quantitative and experimental methods.  
 
 You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
+
+- [Working Papers](https://alikarcic.github.io/main-site/#working-papers)  
+- [Education](https://alikarcic.github.io/main-site/#education)
+- [Conferences and Workshops](https://alikarcic.github.io/main-site/#conferences-and-workshops)
+- [Work Experiences](https://alikarcic.github.io/main-site/#work-experiences)
+- [Teaching](https://alikarcic.github.io/main-site/#teaching)
+- [Data and Resources](https://alikarcic.github.io/main-site/#data-and-resources)
+
 
 ## Working Papers
 
