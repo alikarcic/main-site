@@ -1,9 +1,0 @@
-title: Ali Karcic
-theme: jekyll-theme-minimal
-description: Political Science PhD candidate; computational social science & rhetoric
-logo: /files/photo_new-modified.jpg
-
-# Custom CSS
-include:
-  - style.css
-
