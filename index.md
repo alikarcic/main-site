@@ -10,12 +10,13 @@ Political Science PhD candidate, research in computational rhetoric, elite influ
 - [Google Scholar](https://scholar.google.com/yourprofile)  
 - [Old site](/main-site/alikarcic/)  
 - [Publications](publications.md)  
-- [Grants](grants.md)  
 - [Teaching](teaching.md)  
 - [CV](/assets/CV_May_2025.pdf)  
 - [Contact](mailto:your@email)
 
-I am a Political Science PhD candidate at the University of Zurich (UZH), Switzerland.
+I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
-My research focuses on political competition and rhetorical persuasion...  
-My PhD is supported by a Swiss National Science Foundation project on large-scale online deliberation.
+My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. 
+
+You can view my updated CV [here](/CV_June2025_Ali Karcic.pdf).
+
