@@ -63,7 +63,7 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
   – Politological Introductory Course
 
 ## Data and Resources
-- Mapping the News Agenda in Bosnia: [Link](https://alikarcic.github.io/)
+- Mapping the News Agenda in Bosnia: [Link](/main-site/alikarcic/)
 
 
 
