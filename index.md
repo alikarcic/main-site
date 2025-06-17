@@ -2,7 +2,6 @@
 layout: default
 title: Ali Karcic
 ---
-{% include custom-sidebar.html %}
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
