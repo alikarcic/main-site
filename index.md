@@ -21,9 +21,13 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 
 - **Mainstreaming Prejudice? Anti-Prejudice Norms, Mainstream Elites and Far Right Rhetoric.** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
 
-- **When Do Mainstream Parties Talk Like the Far Right? A Computational Analysis of Anti-Immigrant Rhetoric** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
+- **When Do Mainstream Parties Talk Like the Far Right? Evidence From Western Europe** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
+
+- **Testing the Waters: How Rhetorical Accommodation Precedes Positional Accommodation** Presented at APSA 2025.
   
-- **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas. 
+- **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas.
+
+- **Using Eye-Tracking and Survey Experiments to Understand Biases in Information Processing** - Co-authored with Nicholas Haas.
 
 ## Education
 
