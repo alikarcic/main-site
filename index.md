@@ -5,9 +5,9 @@ title: Ali Karcic
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
-My research focuses on political elites and inter-group attitudes, with a particular focus on elite rhetoric, mainstream party accommodation of the far-right and anti-prejudice norms. I make use of quantitative and experimental methods.  
+My research lies at the intersection of comparative politics and political behavior, and focuses on the broad question of how political elites can influence citizens. I study this question in the context of liberal democracies by focusing on the rhetorical dimension of politics: In particular, I am interested in how political parties use rhetoric to respond to electoral competition from challenger parties, how hostile rhetoric towards out-partisans and immigrants affects the attitudes, and under what conditions such rhetoric erodes democratic norms. To investigate these questions, my research relies on a wide array of quantitative methods with an emphasis on causal inference. I make use of both comparative research designs, computational text analysis approaches, survey experiments, and behavioral experiments. 
 
-You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
+You can view my updated CV [here](files/CV_Academic.pdf).
 
 - [Working Papers](https://alikarcic.github.io/main-site/#working-papers)  
 - [Education](https://alikarcic.github.io/main-site/#education)
@@ -19,15 +19,15 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 
 ## Working Papers
 
-- **Mainstreaming Prejudice? Anti-Prejudice Norms, Mainstream Elites and Far Right Rhetoric.** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
+- **Credible Prejudice? When and Why Mainstream Party Adoption of Far-Right Rhetoric Weakens Anti-Prejudice Norms** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
 
-- **When Do Mainstream Parties Talk Like the Far Right? Evidence From Western Europe** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
+- **When Do Mainstream Parties Talk Like the Far Right? Evidence from Parliamentary Speeches in Western Europe** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
 
-- **Testing the Waters: How Rhetorical Accommodation Precedes Positional Accommodation** Presented at APSA 2025.
+- **Rhetoric First, Policy Later: Mainstream Party Strategy Before and After the Migrant Crisis** Presented at APSA 2025.
   
 - **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas.
 
-- **Using Eye-Tracking and Survey Experiments to Understand Biases in Information Processing** - Co-authored with Nicholas Haas.
+- **Negativity, Emotion \& (In)Congruence Between Eye-Tracking and Conjoint Results** - Co-authored with Nicholas Haas.
 
 ## Education
 
@@ -43,7 +43,7 @@ You can view my updated CV [here](files/CV_June2025_Ali Karcic.pdf).
 - American Political Science Association Conference (APSA), September 2025
 - European Political Science Association Conference (EPSA), June 2025  
 - Political Methodology Europe Conference, London School of Economics, April 2025  
-- Danish Political Science Association (DPSA), November 2024
+- Danish Political Science Association (DPSA), November 2024, 2025
 - ICPSR Summer Program in Quantitative Methods of Social Research, Summer 2024  
 - Empirical Research on Peace and Conflict Workshop, Participated and Organized, September 2022
 
