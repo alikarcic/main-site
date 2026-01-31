@@ -5,7 +5,9 @@ title: Ali Karcic
 
 I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
 
-My research lies at the intersection of comparative politics and political behavior, and focuses on the broad question of how political elites can influence citizens. I study this question in the context of liberal democracies by focusing on the rhetorical dimension of politics: In particular, I am interested in how political parties use rhetoric to respond to electoral competition from challenger parties, how hostile rhetoric towards out-partisans and immigrants affects the attitudes, and under what conditions such rhetoric erodes democratic norms. To investigate these questions, my research relies on a wide array of quantitative methods with an emphasis on causal inference. I make use of both comparative research designs, computational text analysis approaches, survey experiments, and behavioral experiments. 
+My research lies at the intersection of comparative politics and political behavior, and focuses on the broad question of how political elites can influence citizens. I study this question in the context of liberal democracies by focusing on the rhetorical dimension of politics: In particular, I am interested in how political parties use rhetoric to respond to electoral competition from challenger parties, how hostile rhetoric towards out-partisans and immigrants affects the attitudes, and under what conditions such rhetoric erodes democratic norms. 
+
+To investigate these questions, my research relies on a wide array of quantitative methods with an emphasis on causal inference. I make use of both comparative research designs, computational text analysis approaches, survey experiments, and behavioral experiments. 
 
 You can view my updated CV [here](files/CV_Academic.pdf).
 
