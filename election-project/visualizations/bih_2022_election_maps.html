@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bosnia and Herzegovina 2022 Election Maps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f6f0e7;
+      --paper-strong: #fffaf3;
+      --ink: #181412;
+      --muted: #65584d;
+      --line: rgba(111, 92, 73, 0.18);
+      --accent: #214c63;
+      --accent-soft: #d9e7ef;
+      --warm: #c9aa78;
+      --shadow: 0 22px 54px rgba(34, 24, 16, 0.12);
+      --panel: rgba(255, 251, 245, 0.82);
+      --panel-strong: rgba(255, 252, 247, 0.92);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Manrope", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(201, 170, 120, 0.22), transparent 25%),
+        radial-gradient(circle at top right, rgba(53, 92, 118, 0.18), transparent 24%),
+        radial-gradient(circle at 25% 85%, rgba(190, 166, 133, 0.15), transparent 26%),
+        linear-gradient(180deg, #efe5d8 0%, #f7f1e8 46%, #f3ece4 100%);
+    }
+    .page {
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .shell {
+      max-width: 1520px;
+      margin: 0 auto;
+      background:
+        linear-gradient(180deg, rgba(255, 252, 247, 0.9), rgba(253, 247, 240, 0.84));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+      overflow: hidden;
+    }
+    .header {
+      position: relative;
+      padding: 30px 28px 22px;
+      border-bottom: 1px solid var(--line);
+      background:
+        linear-gradient(135deg, rgba(255, 252, 247, 0.82), rgba(244, 235, 223, 0.7)),
+        radial-gradient(circle at right top, rgba(33, 76, 99, 0.1), transparent 38%);
+    }
+    .header::after {
+      content: "";
+      position: absolute;
+      inset: auto 28px 0 28px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(33, 76, 99, 0.18), transparent);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: rgba(255, 252, 247, 0.82);
+      border: 1px solid rgba(33, 76, 99, 0.12);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-family: "Source Serif 4", Georgia, serif;
+      font-size: clamp(34px, 4vw, 56px);
+      line-height: 0.98;
+      letter-spacing: -0.03em;
+      max-width: 20ch;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+      max-width: 74ch;
+    }
+    .tabs {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 249, 241, 0.62);
+      backdrop-filter: blur(10px);
+    }
+    .credit-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 24px 18px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 249, 241, 0.48);
+    }
+    .credit {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .credit a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .credit a:hover {
+      text-decoration: underline;
+    }
+    .tab {
+      appearance: none;
+      position: relative;
+      border: 1px solid rgba(111, 92, 73, 0.14);
+      background: rgba(255, 252, 247, 0.8);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 11px 16px;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 140ms ease, background 140ms ease, border-color 140ms ease, box-shadow 140ms ease;
+    }
+    .tab:hover {
+      transform: translateY(-1px);
+      border-color: rgba(33, 76, 99, 0.22);
+      box-shadow: 0 10px 24px rgba(33, 76, 99, 0.08);
+    }
+    .tab.is-active {
+      background: linear-gradient(135deg, #214c63, #2f637d);
+      border-color: rgba(33, 76, 99, 0.24);
+      color: #f8fbfd;
+      box-shadow: 0 14px 28px rgba(33, 76, 99, 0.18);
+    }
+    .panel {
+      display: none;
+    }
+    .panel.is-active {
+      display: block;
+    }
+    .frame-wrap {
+      padding: 18px;
+      background:
+        radial-gradient(circle at top right, rgba(33, 76, 99, 0.06), transparent 28%),
+        linear-gradient(180deg, rgba(255, 252, 247, 0.68), rgba(252, 246, 239, 0.62));
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      min-height: 92vh;
+      border: 1px solid rgba(111, 92, 73, 0.12);
+      border-radius: 24px;
+      background: var(--paper-strong);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+    }
+    @media (max-width: 900px) {
+      .page {
+        padding: 12px;
+      }
+      .header {
+        padding: 24px 18px 18px;
+      }
+      h1 {
+        max-width: none;
+        font-size: clamp(28px, 9vw, 42px);
+      }
+      .tabs {
+        padding: 14px 16px;
+      }
+      .frame-wrap {
+        padding: 12px;
+      }
+      iframe {
+        min-height: 1200px;
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="shell">
+      <div class="header">
+        <div class="eyebrow">Interactive Atlas</div>
+        <h1>Bosnia and Herzegovina 2022 Election Maps</h1>
+        <p class="subtitle">Explore the 2022 results through three coordinated interactive maps. Each view combines a winner map with a relative-performance gradient, so it is easy to move between who won and where each candidate or party overperformed.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Election map tabs">
+        <button class="tab is-active" id="tab-presidency" type="button" role="tab" aria-selected="true" aria-controls="panel-presidency">Presidency</button>
+        <button class="tab" id="tab-parliament" type="button" role="tab" aria-selected="false" aria-controls="panel-parliament">Parliamentary Assembly</button>
+        <button class="tab" id="tab-cantons" type="button" role="tab" aria-selected="false" aria-controls="panel-cantons">Cantonal Assemblies</button>
+      </div>
+      <div class="credit-bar">
+        <p class="credit">Created by <a href="https://alikarcic.github.io/main-site/" target="_blank" rel="noopener noreferrer">Ali Karčić</a>.</p>
+      </div>
+      <section class="panel is-active" id="panel-presidency" role="tabpanel" aria-labelledby="tab-presidency">
+        <div class="frame-wrap">
+          <iframe src="./bih_2022_presidency_map.html" title="Bosnia and Herzegovina 2022 Presidency map"></iframe>
+        </div>
+      </section>
+      <section class="panel" id="panel-parliament" role="tabpanel" aria-labelledby="tab-parliament">
+        <div class="frame-wrap">
+          <iframe src="./bih_2022_parliamentary_assembly_map.html" title="Bosnia and Herzegovina 2022 Parliamentary Assembly map"></iframe>
+        </div>
+      </section>
+      <section class="panel" id="panel-cantons" role="tabpanel" aria-labelledby="tab-cantons">
+        <div class="frame-wrap">
+          <iframe src="./bih_2022_federation_cantonal_assemblies_map.html" title="Federation of Bosnia and Herzegovina 2022 cantonal assemblies map"></iframe>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script>
+    const tabs = Array.from(document.querySelectorAll(".tab"));
+    const panels = Array.from(document.querySelectorAll(".panel"));
+
+    function setActiveTab(targetId) {
+      tabs.forEach((tab) => {
+        const active = tab.id === targetId;
+        tab.classList.toggle("is-active", active);
+        tab.setAttribute("aria-selected", active ? "true" : "false");
+      });
+
+      panels.forEach((panel) => {
+        panel.classList.toggle("is-active", panel.getAttribute("aria-labelledby") === targetId);
+      });
+    }
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => setActiveTab(tab.id));
+    });
+  </script>
+</body>
+</html>
