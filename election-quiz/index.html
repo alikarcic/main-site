@@ -66,10 +66,11 @@
     h1 {
       margin: 14px 0 8px;
       font-family: "Source Serif 4", Georgia, serif;
-      font-size: clamp(34px, 5vw, 60px);
-      line-height: 0.98;
+      font-size: clamp(18px, 3.5vw, 46px);
+      line-height: 1.02;
       letter-spacing: -0.03em;
-      max-width: 14ch;
+      max-width: none;
+      white-space: nowrap;
     }
     .subtitle {
       margin: 0;
@@ -333,8 +334,7 @@
         padding: 18px;
       }
       h1 {
-        font-size: clamp(28px, 10vw, 42px);
-        max-width: none;
+        font-size: clamp(18px, 5.2vw, 28px);
       }
       .question {
         font-size: 26px;
@@ -592,19 +592,33 @@
         }
         .unit-shape {
           cursor: default !important;
-          pointer-events: none !important;
         }
       `;
       doc.head.appendChild(style);
     }
 
-    function removeMapTitles() {
+    function setMunicipalityTitles() {
       const doc = iframe.contentDocument;
-      if (!doc) {
+      const win = iframe.contentWindow;
+      if (!doc || !win) {
         return;
       }
 
-      doc.querySelectorAll(".unit-shape title").forEach((title) => title.remove());
+      const unitMap = win.eval("mapData");
+      doc.querySelectorAll(".unit-shape[data-unit-key]").forEach((shape) => {
+        const unit = unitMap[shape.dataset.unitKey];
+        if (!unit) {
+          return;
+        }
+
+        let title = shape.querySelector("title");
+        if (!title) {
+          title = doc.createElementNS("http://www.w3.org/2000/svg", "title");
+          shape.appendChild(title);
+        }
+
+        title.textContent = unit.unitName;
+      });
     }
 
     function applyQuizColorToMap(partyName, color) {
@@ -668,7 +682,7 @@
           select.value = target.value;
           select.dispatchEvent(new Event("change", { bubbles: true }));
           window.setTimeout(() => {
-            removeMapTitles();
+            setMunicipalityTitles();
             applyQuizColorToMap(target.value, currentQuestionColor);
             if (win && typeof win.renderDefaultInfo === "function") {
               win.renderDefaultInfo();
