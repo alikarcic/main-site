@@ -510,6 +510,7 @@
     let score = 0;
     let answers = [];
     let iframeReady = false;
+    let currentQuestionColor = "#224f68";
 
     function normalizeLabel(value) {
       return value
@@ -534,6 +535,20 @@
         ...question,
         choices: shuffleArray(question.choices)
       }));
+    }
+
+    function getRandomQuizColor() {
+      const palette = [
+        "#b84a3a",
+        "#2f7d4d",
+        "#2b65a8",
+        "#996c18",
+        "#8f4bb8",
+        "#1f8a8a",
+        "#c05a7b",
+        "#6c63c9"
+      ];
+      return palette[Math.floor(Math.random() * palette.length)];
     }
 
     let quizQuestions = buildQuestionSet();
@@ -566,25 +581,70 @@
         .card > .subtitle {
           display: none !important;
         }
+        .gradient-legend {
+          display: none !important;
+        }
         .svg-wrap {
           margin: 0 !important;
         }
         .svg-wrap svg {
           max-height: 730px !important;
         }
-        .gradient-legend {
-          left: 16px !important;
-          bottom: 16px !important;
-        }
         .unit-shape {
           cursor: default !important;
+          pointer-events: none !important;
         }
       `;
       doc.head.appendChild(style);
     }
 
+    function removeMapTitles() {
+      const doc = iframe.contentDocument;
+      if (!doc) {
+        return;
+      }
+
+      doc.querySelectorAll(".unit-shape title").forEach((title) => title.remove());
+    }
+
+    function applyQuizColorToMap(partyName, color) {
+      const win = iframe.contentWindow;
+      const doc = iframe.contentDocument;
+      if (!win || !doc || typeof win.getCandidatePerformanceScale !== "function") {
+        return;
+      }
+
+      const shapes = Array.from(doc.querySelectorAll(".unit-shape[data-unit-key]"));
+      const scale = win.getCandidatePerformanceScale(partyName);
+      const originalHexToRgb = win.hexToRgb;
+
+      win.hexToRgb = function () {
+        return originalHexToRgb(color);
+      };
+
+      try {
+        shapes.forEach((shape) => {
+          const unit = win.eval("mapData")[shape.dataset.unitKey];
+          if (!unit) {
+            return;
+          }
+
+          const performance = scale.performanceByUnit[unit.unitKey];
+          if (!performance || !performance.isEligible) {
+            shape.style.fill = "#ffffff";
+            return;
+          }
+
+          shape.style.fill = win.getCandidateGradientFill(partyName, performance, scale);
+        });
+      } finally {
+        win.hexToRgb = originalHexToRgb;
+      }
+    }
+
     function setIframeParty(partyName) {
       const doc = iframe.contentDocument;
+      const win = iframe.contentWindow;
       if (!doc) {
         return;
       }
@@ -607,6 +667,13 @@
         if (target) {
           select.value = target.value;
           select.dispatchEvent(new Event("change", { bubbles: true }));
+          window.setTimeout(() => {
+            removeMapTitles();
+            applyQuizColorToMap(target.value, currentQuestionColor);
+            if (win && typeof win.renderDefaultInfo === "function") {
+              win.renderDefaultInfo();
+            }
+          }, 60);
         }
         mapLoading.style.display = "none";
       }, 90);
@@ -627,6 +694,7 @@
       nextButton.hidden = true;
       answersEl.innerHTML = "";
       mapLoading.style.display = "grid";
+      currentQuestionColor = getRandomQuizColor();
 
       question.choices.forEach((choice) => {
         const button = document.createElement("button");
