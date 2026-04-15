@@ -27,7 +27,7 @@ You can view my updated CV [here](files/CV_Academic.pdf).
 
 - **Rhetoric First, Policy Later: Mainstream Party Strategy Before and After the Migrant Crisis** Presented at APSA 2025.
   
-- **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas.
+- **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas and Julian Schuessler.
 
 - **Negativity, Emotion \& (In)Congruence Between Eye-Tracking and Conjoint Results** - Co-authored with Nicholas Haas.
 
@@ -42,6 +42,7 @@ You can view my updated CV [here](files/CV_Academic.pdf).
   
 ## Conferences and Workshops
 
+- ECPR Joint Sessions of Workshops, April 2026 
 - American Political Science Association Conference (APSA), September 2025
 - European Political Science Association Conference (EPSA), June 2025  
 - Political Methodology Europe Conference, London School of Economics, April 2025  
@@ -51,6 +52,8 @@ You can view my updated CV [here](files/CV_Academic.pdf).
 
   
 ## Work Experience
+
+- PhD Candidate, Department of Political Science, Aarhus University, 2023-
 
 - Research Assistant, Department of Political Science, Aarhus University, 2022-2023
   
