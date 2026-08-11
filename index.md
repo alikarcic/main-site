@@ -21,15 +21,15 @@ You can view my updated CV [here](files/CV_Academic.pdf).
 
 ## Working Papers
 
-- **Credible Prejudice? When and Why Mainstream Party Adoption of Far-Right Rhetoric Weakens Anti-Prejudice Norms** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
+- **Credible Prejudice? When and Why Mainstream Party Adoption of Far-Right Rhetoric Weakens Anti-Prejudice Norms (Political Behavior, Forthcoming)** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
 
 - **When Do Mainstream Parties Talk Like the Far Right? Evidence from Parliamentary Speeches in Western Europe** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
 
 - **Rhetoric First, Policy Later: Mainstream Party Strategy Before and After the Migrant Crisis** Presented at APSA 2025.
   
-- **Mitigating Discrimination Through Meditation** - Co-authored with Nicholas Haas and Julian Schuessler.
+- **Meditation Improves Inter-Group Attitudes Through Emotional Channels** - Co-authored with Nicholas Haas and Julian Schuessler.
 
-- **Negativity, Emotion \& (In)Congruence Between Eye-Tracking and Conjoint Results** - Co-authored with Nicholas Haas.
+- **Negativity, Emotion & (In)Congruence Between Eye-Tracking and Conjoint Results** - Co-authored with Nicholas Haas.
 
 ## Education
 
