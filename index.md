@@ -3,7 +3,7 @@ layout: default
 title: Ali Karcic
 ---
 
-I am a Political Science PhD student at the Department of Political Science, Aarhus University. 
+I am a Postdoctoral Researcher at the Department of Political Science, Aarhus University. 
 
 My research lies at the intersection of comparative politics and political behavior, and focuses on the broad question of how political elites can influence citizens. I study this question in the context of liberal democracies by focusing on the rhetorical dimension of politics: In particular, I am interested in how political parties use rhetoric to respond to electoral competition from challenger parties, how hostile rhetoric towards out-partisans and immigrants affects the attitudes, and under what conditions such rhetoric erodes democratic norms. 
 
@@ -21,9 +21,9 @@ You can view my updated CV [here](files/CV_Academic.pdf).
 
 ## Working Papers
 
-- **Credible Prejudice? When and Why Mainstream Party Adoption of Far-Right Rhetoric Weakens Anti-Prejudice Norms (Political Behavior, Forthcoming)** Presented at DPSA 2024, EPSA 2025 and APSA 2025. [OSF](https://osf.io/7wxb4?mode=&revisionId=&view_only=).
+- **Credible Prejudice? When and Why Mainstream Party Adoption of Far-Right Rhetoric Weakens Anti-Prejudice Norms (Political Behavior 2026 [Link](https://link.springer.com/article/10.1007/s11109-026-10201-3).)** Presented at DPSA 2024, EPSA 2025 and APSA 2025.
 
-- **When Do Mainstream Parties Talk Like the Far Right? Evidence from Parliamentary Speeches in Western Europe** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
+- **When Do Mainstream Parties Talk Like the Far Right? Evidence from Parliamentary Speeches in Western Europe (Party Politics, R&R)** Presented at PolMeth 2025, EPSA 2025 and APSA 2025.
 
 - **Rhetoric First, Policy Later: Mainstream Party Strategy Before and After the Migrant Crisis** Presented at APSA 2025.
   
@@ -53,7 +53,9 @@ You can view my updated CV [here](files/CV_Academic.pdf).
   
 ## Work Experience
 
-- PhD Candidate, Department of Political Science, Aarhus University, 2023-
+- Postdoctoral Researcher, Department of Political Science, Aarhus University, 2026-
+
+- PhD Candidate, Department of Political Science, Aarhus University, 2023-2026
 
 - Research Assistant, Department of Political Science, Aarhus University, 2022-2023
   
