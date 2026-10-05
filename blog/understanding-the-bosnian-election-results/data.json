@@ -1,0 +1,49 @@
+{
+  "voteShares": [
+    {
+      "party": "SDP BiH",
+      "status": "Government",
+      "2022": 13.39,
+      "2026": 15.6
+    },
+    {
+      "party": "NS",
+      "status": "Government",
+      "2022": 5.12,
+      "2026": 4.05
+    },
+    {
+      "party": "NIP",
+      "status": "Government",
+      "2022": 9.26,
+      "2026": 6.92
+    },
+    {
+      "party": "SDA",
+      "status": "Opposition",
+      "2022": 25.17,
+      "2026": 31.56
+    },
+    {
+      "party": "SBiH",
+      "status": "Opposition",
+      "2022": 2.74,
+      "2026": 8.77
+    },
+    {
+      "party": "DF/GS",
+      "status": "Opposition",
+      "2022": 10.52,
+      "2026": 6.37
+    }
+  ],
+  "turnout": {
+    "2006": 54.54,
+    "2010": 56.49,
+    "2014": 54.35,
+    "2018": 54.03,
+    "2022": 51.45,
+    "2026": 42.02
+  },
+  "notes": "Latest author-supplied party percentages. Historical national parliamentary turnout: IFES ElectionGuide. 2026 turnout supplied by author."
+}

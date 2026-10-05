@@ -11,6 +11,7 @@ To investigate these questions, my research relies on a wide array of quantitati
 
 You can view my updated CV [here](files/CV_Academic.pdf).
 
+- [Blog](https://alikarcic.github.io/main-site/#blog)
 - [Working Papers](https://alikarcic.github.io/main-site/#working-papers)  
 - [Education](https://alikarcic.github.io/main-site/#education)
 - [Conferences and Workshops](https://alikarcic.github.io/main-site/#conferences-and-workshops)
@@ -18,6 +19,10 @@ You can view my updated CV [here](files/CV_Academic.pdf).
 - [Teaching](https://alikarcic.github.io/main-site/#teaching)
 - [Data and Resources](https://alikarcic.github.io/main-site/#data-and-resources)
 
+
+## Blog
+
+- [Understanding the Bosnian Election Results](/main-site/blog/understanding-the-bosnian-election-results/) — 5 October 2026
 
 ## Working Papers
 
@@ -73,7 +78,5 @@ You can view my updated CV [here](files/CV_Academic.pdf).
   – Politological Introductory Course
 
 ## Data and Resources
+- Understanding the Bosnian Election Results: [Link](/main-site/blog/understanding-the-bosnian-election-results/)
 - Mapping the News Agenda in Bosnia: [Link](/main-site/alikarcic/)
-
-
-
